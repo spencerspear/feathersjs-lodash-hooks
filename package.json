@@ -1,0 +1,30 @@
+{
+  "name": "feathersjs-lodash-hooks",
+  "version": "1.0.0",
+  "description": "Lodash functions for direct use as hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerspear/feathersjs-lodash-hooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerspear/feathersjs-lodash-hooks/issues"
+  },
+  "homepage": "https://github.com/spencerspear/feathersjs-lodash-hooks#readme",
+  "dependencies": {
+    "@feathersjs/errors": "^3.3.6",
+    "feathers-hooks-common": "^4.20.7",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4"
+  }
+}
